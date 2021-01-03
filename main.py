@@ -46,7 +46,7 @@ def create_moves_file():
             if "[" not in line.strip("\n") and line.strip("\n") != "":
                 for move in line.strip("\n").split(" "):
                     invalid_move = False
-                    for symbol in [".", "0-1", "1-0", "1/2-1/2"]:
+                    for symbol in [".", "0-1", "1-0", "1/2-1/2", " "]:
                         # not actual moves
                         if symbol in move:
                             invalid_move = True
