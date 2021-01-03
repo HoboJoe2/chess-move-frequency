@@ -1,4 +1,4 @@
 moves.txt
-original_pgn.pgn
+*.pgn
 .env
 .vscode
