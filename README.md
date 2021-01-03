@@ -17,6 +17,4 @@ To use this program, follow these steps:
 5. Copy the location of the folder by clicking the bar above the files and using Ctrl + C
 (should be something like to "C:/This PC/Users/user/Downloads/chess-move-frequency-master")
 6. Open command prompt and type "cd " then paste the location then press enter (Eg. "cd C:/This PC/Users/user/Downloads/chess-move-frequency-master")
-7. Type "pip install -r requirements.txt" then press enter and wait until it finishes
-8. Close the command prompt
-9. Run main.py
+7. Type "python -m venv .env && cd .env/Scripts && activate && cd.. && cd.. && pip install -r requirements.txt && python main.py
