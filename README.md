@@ -1,6 +1,7 @@
 This is a python program to generate move frequency graphs from a pgn file.
 
 The images in this repository were generated using the Lichess elite database from November 2020.
+If you run the program with a different pgn file the images will be replaced automatically.
 
 To use this program, follow these steps:
 (These steps are meant for someone without much knowledge of computers, if you know what you're doing
