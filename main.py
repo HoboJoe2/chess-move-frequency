@@ -31,7 +31,7 @@ def create_data_file(all_dicts):
             """, file=f)
 
             for move, score in dictionary.items():
-                print(f"{move} >> {score}", file=f)
+                print(f"{move} > {score}", file=f)
     return
 
 
@@ -46,7 +46,8 @@ def create_moves_file():
             if "[" not in line.strip("\n") and line.strip("\n") != "":
                 for move in line.strip("\n").split(" "):
                     invalid_move = False
-                    for symbol in [".", "0-1", "1-0"]:  # not actual moves
+                    for symbol in [".", "0-1", "1-0", "1/2-1/2"]:
+                        # not actual moves
                         if symbol in move:
                             invalid_move = True
                     if invalid_move is False:
