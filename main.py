@@ -1,5 +1,6 @@
 import os
 import matplotlib.pyplot as plt
+import time
 
 dirpath = os.path.dirname(__file__)
 pgn_filepath = os.path.join(dirpath, "pgn_file.pgn")
@@ -154,3 +155,4 @@ if __name__ == "__main__":
     create_graphs(all_dicts)
 
     print("Done, thank you for using this program!")
+    time.sleep(1000)
