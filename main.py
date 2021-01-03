@@ -48,9 +48,12 @@ def create_moves_file():
             if "[" not in line.strip("\n") and line.strip("\n") != "":
                 for move in line.strip("\n").split(" "):
                     invalid_move = False
-                    for symbol in [".", "0-1", "1-0", "1/2-1/2", " "]:
+                    if "." in move:
+                        move = move.split(".")
+                        move = move[1]
+                    for symbol in ["0-1", "1-0", "1/2-1/2", " "]:
                         # not actual moves
-                        if symbol in move:
+                        if symbol in move or move == "":
                             invalid_move = True
                     if invalid_move is False:
                         f.write(f"{move}\n")
@@ -156,4 +159,4 @@ if __name__ == "__main__":
     create_graphs(all_dicts)
 
     print("Done, thank you for using this program!")
-    time.sleep(1000)
+    time.sleep(2)

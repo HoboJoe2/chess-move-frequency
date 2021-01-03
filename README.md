@@ -6,6 +6,8 @@ The images and data file that are in the repository by default were generated us
 
 If you run the program with a different pgn file the images will be replaced automatically and a new data.txt file will be generated.
 
+If the code didn't work correctly, make an issue on github and I will hopefully see it.
+
 To use this program, follow these steps:
 
 1. Download python from python.org
