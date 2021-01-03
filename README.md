@@ -14,7 +14,4 @@ To use this program, follow these steps:
 2. Download the files by clicking the green download button, then clicking download zip.
 3. Extract the zip by right-clicking it and choosing 'extract'
 4. Put your pgn file in the extracted folder and call it "pgn_file.pgn" (The name has to be exact or the code won't work)
-5. Copy the location of the folder by clicking the bar above the files and using Ctrl + C
-(should be something like to "C:/This PC/Users/user/Downloads/chess-move-frequency-master")
-6. Open command prompt and type "cd " then paste the location then press enter (Eg. "cd C:/This PC/Users/user/Downloads/chess-move-frequency-master")
-7. Type or copy+paste "python -m venv .env && cd .env/Scripts && activate && cd.. && cd.. && pip install -r requirements.txt && python main.py" then press enter
+5. Double click on start.bat and the program should run
