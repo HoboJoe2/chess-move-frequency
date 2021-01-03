@@ -7,14 +7,13 @@ To use this program, follow these steps:
 you can do whatever you feel like)
 
 1. Download python from python.org
-2. Clone the repository by clicking the clone button on github
-3. Open file explorer to where you just cloned the repository
-4. Put your pgn file in the folder and call it "pgn_file.pgn" (The name has to be that or the code won't work)
-5. Copy the location of the folder by clicking the bar above the files and using Ctrl + C
+2. Download the files by clicking the green download button, then clicking download zip.
+3. Open file explorer to where you just downloaded the zip
+4. Extract the zip by right-clicking it and choosing 'extract'
+5. Put your pgn file in the extracted folder and call it "pgn_file.pgn" (The name has to be that or the code won't work)
+6. Copy the location of the folder by clicking the bar above the files and using Ctrl + C
 (should be something similar to "C:/This PC/Documents/chess-move-frequency" depending on where you cloned the repository to)
-6. Open command prompt and type "cd " then paste the location (Eg. "cd C:/This PC/Documents/chess-move-frequency")
-7. Type "pip install -r requirements.txt" and wait until it finishes
-8. Close the command prompt
-9. Run main.py
-
-Hopefully that works, if it doesn't maybe just 
+7. Open command prompt and type "cd " then paste the location (Eg. "cd C:/This PC/Documents/chess-move-frequency")
+8. Type "pip install -r requirements.txt" and wait until it finishes
+9. Close the command prompt
+10. Run main.py
