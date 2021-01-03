@@ -13,7 +13,7 @@ To use this program, follow these steps:
 1. Download python from python.org
 2. Download the files by clicking the green download button, then clicking download zip.
 3. Extract the zip by right-clicking it and choosing 'extract'
-4. Put your pgn file in the extracted folder and call it "pgn_file.pgn" (The name has to be exact or the code won't work)
+4. Put your pgn file in the extracted folder
 5. Double click on start.bat, if there is a windows defender popup click "show more" then press the run anyway button.
 
 The batch script is "python -m venv .env && cd .env/Scripts && activate && cd.. && cd.. && pip install -r requirements.txt && python main.py", open command prompt, cd into the folder and run that if you trust windows defender more than me.

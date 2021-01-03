@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 import time
 
 dirpath = os.path.dirname(__file__)
-pgn_filepath = os.path.join(dirpath, "pgn_file.pgn")
 moves_filepath = os.path.join(dirpath, "moves.txt")
 data_filepath = os.path.join(dirpath, "data.txt")
 images_filepath = os.path.join(dirpath, "images")
@@ -144,6 +143,10 @@ def create_other_dicts(move_dict):
 
 
 if __name__ == "__main__":
+
+    for file in os.listdir(dirpath):
+        if file.endswith(".pgn"):
+            pgn_filepath = os.path.join("/mydir", file)
 
     create_moves_file()
     moves_dict = create_move_dict(moves_filepath)
