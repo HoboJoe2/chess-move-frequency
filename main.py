@@ -6,6 +6,7 @@ dirpath = os.path.dirname(__file__)
 pgn_filepath = os.path.join(dirpath, "pgn_file.pgn")
 moves_filepath = os.path.join(dirpath, "moves.txt")
 data_filepath = os.path.join(dirpath, "data.txt")
+images_filepath = os.path.join(dirpath, "images")
 
 
 def create_graphs(all_dicts):
@@ -18,7 +19,7 @@ def create_graphs(all_dicts):
         plt.figure(figsize=(20, 10))
         plt.title(key)
         plt.bar(moves[:20], scores[:20])
-        plt.savefig(key)
+        plt.savefig(f"{images_filepath}/{key}")
 
     return
 
