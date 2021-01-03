@@ -146,7 +146,7 @@ if __name__ == "__main__":
 
     for file in os.listdir(dirpath):
         if file.endswith(".pgn"):
-            pgn_filepath = os.path.join("/mydir", file)
+            pgn_filepath = os.path.join(dirpath, file)
 
     create_moves_file()
     moves_dict = create_move_dict(moves_filepath)
