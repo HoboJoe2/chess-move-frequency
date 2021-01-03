@@ -7,8 +7,6 @@ The images and data file that are in the repository by default were generated us
 If you run the program with a different pgn file the images will be replaced automatically and a new data.txt file will be generated.
 
 To use this program, follow these steps:
-(These steps are meant for someone without much knowledge of computers, if you know what you're doing
-you can do whatever you feel like)
 
 1. Download python from python.org
 2. Download the files by clicking the green download button, then clicking download zip.
@@ -16,8 +14,8 @@ you can do whatever you feel like)
 4. Extract the zip by right-clicking it and choosing 'extract'
 5. Put your pgn file in the extracted folder and call it "pgn_file.pgn" (The name has to be that or the code won't work)
 6. Copy the location of the folder by clicking the bar above the files and using Ctrl + C
-(should be something similar to "C:/This PC/Documents/chess-move-frequency-master" depending on where you cloned the repository to)
-7. Open command prompt and type "cd " then paste the location (Eg. "cd C:/This PC/Documents/chess-move-frequency-master")
-8. Type "pip install -r requirements.txt" and wait until it finishes
+(should be something similar to "C:/This PC/Documents/chess-move-frequency-master" depending on where you put the zip file)
+7. Open command prompt and type "cd " then paste the location then press enter (Eg. "cd C:/This PC/Users/user/Documents/chess-move-frequency-master")
+8. Type "pip install -r requirements.txt" then press enter and wait until it finishes
 9. Close the command prompt
 10. Run main.py
