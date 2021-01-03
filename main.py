@@ -2,7 +2,7 @@ import os
 import matplotlib.pyplot as plt
 
 dirpath = os.path.dirname(__file__)
-pgn_filepath = os.path.join(dirpath, "original_pgn.pgn")
+pgn_filepath = os.path.join(dirpath, "pgn_file.pgn")
 moves_filepath = os.path.join(dirpath, "moves.txt")
 data_filepath = os.path.join(dirpath, "data.txt")
 
